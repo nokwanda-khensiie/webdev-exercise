@@ -1,0 +1,30 @@
+body{
+    flex-direction: column;
+    font-family:'Roboto', sans-serif;
+    background-color: red;
+    margin: 20px;
+}
+form{
+    padding: 20px;
+    width:33,33% ;
+    width:calc(100% /3 );
+    border-radius: 10px;
+    background-color: #F2F2F2;
+}
+input{
+      padding:12px 20px;
+      margin:8px 8px 0px 0px
+      border-style:solid 1px;
+      border-color: RGB(69,160,73);
+
+}
+input[type=submit]{
+    background-color: RGB(76,175,80);
+    padding:20px 14px;
+    font-size: 20px;
+
+}
+
+input[type=submit]:hover{
+    background-color: RGB(69,160,73);
+}

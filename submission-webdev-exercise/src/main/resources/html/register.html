@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet"href ="css/normalize.css"/>
+    <link rel="stylesheet"href ="css/main.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <title>New User Registration</title>
+</head>
+<body>
+
+<h1>New User Registration</h1>
+<form>
+    <div >
+        <label for="firstname"> Your first name:</label>
+        <input type="text" id="firstname" name="firstname"  autofocus required>
+    </div>
+    <div>
+        <label for="lastname"> Your last name:</label>
+        <input type="text" id="lastname" name="lastname"  required>
+
+    </div>
+    <div>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email"  required>
+
+    </div>
+    <div>
+        <label for="password">password:</label>
+        <input type="password" id="password" name="password" minlength="8" pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)[a-zA-Z\d]$" required>
+    </div>
+    <div>
+        <label for="confirmpassword">confirmpassword:</label>
+        <input type="password" id="confirmpassword" name="confirmpassword" minlength="8" pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)[a-zA-Z\d]$" required>
+
+    </div>
+
+</form>
+<button type="submit"> Register</button>
+<p>Read our
+    <a href="./ts_and_cs.html">Terms and Conditions</a>
+</p>
+
+
+</body>
+</html>
